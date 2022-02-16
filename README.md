@@ -11,6 +11,6 @@
 1.  `pip install -r requirements.txt`
 
 #### 使用说明
-1. 像素块随机风格demo：`python pixel-block-style-img.py`
-2. 图片版本demo：`python fast-neural-style-img.py`
-3. 视频实时版本demo：`python fast-neural-style-video.py`
+1. 像素块随机风格demo：`python pixel_block_style_img.py`
+2. 图片版本demo：`python fast_neural_style_img.py`
+3. 视频实时版本demo：`python fast_neural_style_video.py`
