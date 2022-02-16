@@ -8,7 +8,8 @@
 * OpenCV
 
 #### 安装教程
-1.  `pip install -r requirements.txt`
+1. 运行 `models/download_style_transfer_models.sh`下载模型(模型来自: <https://github.com/jcjohnson/fast-neural-style>)
+2. `pip install -r requirements.txt`
 
 #### 使用说明
 1. 像素块随机风格demo：`python pixel_block_style_img.py`
