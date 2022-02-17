@@ -8,7 +8,6 @@ cap = cv2.VideoCapture(0)
 
 implementor = StyleImplementor("models/instance_norm/udnie.t7", 400, 300)
 
-i= 0
 
 while True:
     # 接受键盘输入
@@ -29,6 +28,5 @@ while True:
         filename = time.strftime("%Y%m%d%H%M%S", time.localtime()) + ".jpg"
         print(filename + " 已保存")
         cv2.imwrite('./capture/' + filename, out * 255)
-        i += 1
 cap.release()
 cv2.destroyAllWindows()
