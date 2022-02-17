@@ -45,8 +45,11 @@ class StyleImplementor:
         cv2.waitKey(0)
 
     def show_video(self, source):
-        cv2.imshow('Style Image', self.implementor(source))
+        out = self.implementor(source)
+        cv2.imshow('Style Image', out)
+        return out
 
     def show_gray_video(self, source):
         out = cv2.cvtColor(self.implementor(source), cv2.COLOR_BGR2GRAY)
         cv2.imshow('Style Image', out)
+        return out

@@ -143,3 +143,7 @@ old/
 
 # 模型
 *.t7
+
+# 保存的图片
+capture/*.jpg
+capture/*.png
