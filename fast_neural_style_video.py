@@ -18,9 +18,14 @@ while True:
     if not hasFrame:
         cv2.waitKey()
         break
-    # implementor.show_video()
-    # 灰度图像展示
+
+    # 原风格图像
     out = implementor.show_video(frame)
+    # 灰度风格图像
+    # out = implementor.show_gray_video(frame)
+    # 三色风格图像
+    # out = implementor.show_three_color_video(frame)
+
     # 检测s键保存图片，图像路径为当前时间，保存在capture文件夹下
     if k == ord('s'):
         filename = time.strftime("%Y%m%d%H%M%S", time.localtime()) + ".jpg"

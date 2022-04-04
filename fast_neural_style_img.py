@@ -7,6 +7,10 @@ image = cv2.imread('img/image10.jpg')
 (height, width) = image.shape[:2]
 # 生成风格化图像
 implementor = StyleImplementor("models/instance_norm/udnie.t7", width, height)
-implementor.show_img(image)
-# 灰度图像展示
+
+# 原风格图像
+# implementor.show_img(image)
+# 灰度风格图像
 # implementor.show_gray_img(image)
+# 三色风格图像
+implementor.show_three_color_img(image)
