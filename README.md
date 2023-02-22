@@ -14,7 +14,7 @@
 * OpenCV
 
 #### 安装教程
-1. 运行 `models/download_style_transfer_models.sh`下载模型(模型来自: <https://github.com/jcjohnson/fast-neural-style>)
+1. 运行 `models/download_style_transfer_models.sh`下载模型 (模型来自: <https://github.com/jcjohnson/fast-neural-style>)
 2. `pip install -r requirements.txt`
 
 #### 使用说明
